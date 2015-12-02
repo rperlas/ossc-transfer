@@ -1,0 +1,9 @@
+{
+  "name": "QuickTest",
+  "version": "1.0.0",
+  "description": "List of QuickTest packages",
+  "dependencies": {
+    "mongodb": "^2.0.48",
+    "sha": "^1.2.4"
+  }
+}

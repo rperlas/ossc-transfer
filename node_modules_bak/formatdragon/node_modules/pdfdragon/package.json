@@ -1,0 +1,10 @@
+{
+  "name": "pdfdragon",
+  "version": "1.0.0",
+  "description": "Generate excel files based on dependragon outputs.",
+  "author": "Ronald Perlas",
+  "dependencies": {
+    "graceful-fs": "^4.1.2",
+    "pdfkit": "^0.7.1"
+  }
+}

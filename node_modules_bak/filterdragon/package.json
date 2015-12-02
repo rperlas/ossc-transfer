@@ -1,0 +1,10 @@
+{
+  "name": "filterdragon",
+  "version": "1.0.0",
+  "description": "Generate filtered array based on dependragon outputs.",
+  "main": "./index.js",
+  "author": "Ronald Perlas",
+  "dependencies": {
+    "graceful-fs": "^4.1.2"
+  }
+}

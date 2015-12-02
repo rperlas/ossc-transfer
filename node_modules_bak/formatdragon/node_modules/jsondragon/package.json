@@ -1,0 +1,9 @@
+{
+  "name": "jsondragon",
+  "version": "1.0.0",
+  "description": "Generate JSON files based on dependragon outputs.",
+  "author": "Ronald Perlas",
+  "dependencies": {
+    "graceful-fs": "^4.1.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "formatdragon",
+  "version": "1.0.0",
+  "description": "Generate output folder.",
+  "main": "./index.js",
+  "author": "Ronald Perlas",
+  "dependencies": {
+    "graceful-fs": "*",
+    "mkdirp": "*",
+    "exceldragon": "*",
+    "pdfdragon": "*",
+    "jsondragon": "*",
+    "filterdragon": "*"
+  }
+}

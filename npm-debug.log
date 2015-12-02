@@ -1,0 +1,317 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/svt/shared/IBMSVT64_12/bin/npm', 'install' ]
+2 info using npm@3.4.0
+3 info using node@v0.12.7
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData async
+20 silly mapToRegistry name async
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/async
+24 silly fetchNamedPackageData dependragon
+25 silly mapToRegistry name dependragon
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/dependragon
+29 silly fetchNamedPackageData filterdragon
+30 silly mapToRegistry name filterdragon
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/filterdragon
+34 silly fetchNamedPackageData fomatdragon
+35 silly mapToRegistry name fomatdragon
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/fomatdragon
+39 verbose request uri https://registry.npmjs.org/dependragon
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 3:58:31 AM
+42 verbose request id 885bee785345cbe2
+43 http request GET https://registry.npmjs.org/dependragon
+44 verbose request uri https://registry.npmjs.org/filterdragon
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 3:58:31 AM
+47 http request GET https://registry.npmjs.org/filterdragon
+48 verbose request uri https://registry.npmjs.org/fomatdragon
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 3:58:31 AM
+51 http request GET https://registry.npmjs.org/fomatdragon
+52 verbose request uri https://registry.npmjs.org/async
+53 verbose request no auth needed
+54 info attempt registry request try #1 at 3:58:31 AM
+55 verbose etag "547F1GYBNW7TG5BZWYAVL673S"
+56 http request GET https://registry.npmjs.org/async
+57 http 200 https://registry.npmjs.org/async
+58 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+58 verbose headers   etag: '"1CNEOBUDQXNBGQPYQF47PPBQA"',
+58 verbose headers   'content-type': 'application/json',
+58 verbose headers   'cache-control': 'max-age=60',
+58 verbose headers   'content-length': '132288',
+58 verbose headers   'accept-ranges': 'bytes',
+58 verbose headers   date: 'Tue, 01 Dec 2015 03:58:31 GMT',
+58 verbose headers   via: '1.1 varnish',
+58 verbose headers   age: '48',
+58 verbose headers   connection: 'keep-alive',
+58 verbose headers   'x-served-by': 'cache-lcy1125-LCY',
+58 verbose headers   'x-cache': 'HIT',
+58 verbose headers   'x-cache-hits': '1',
+58 verbose headers   'x-timer': 'S1448942311.484273,VS0,VE0',
+58 verbose headers   vary: 'Accept' }
+59 silly get cb [ 200,
+59 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+59 silly get     etag: '"1CNEOBUDQXNBGQPYQF47PPBQA"',
+59 silly get     'content-type': 'application/json',
+59 silly get     'cache-control': 'max-age=60',
+59 silly get     'content-length': '132288',
+59 silly get     'accept-ranges': 'bytes',
+59 silly get     date: 'Tue, 01 Dec 2015 03:58:31 GMT',
+59 silly get     via: '1.1 varnish',
+59 silly get     age: '48',
+59 silly get     connection: 'keep-alive',
+59 silly get     'x-served-by': 'cache-lcy1125-LCY',
+59 silly get     'x-cache': 'HIT',
+59 silly get     'x-cache-hits': '1',
+59 silly get     'x-timer': 'S1448942311.484273,VS0,VE0',
+59 silly get     vary: 'Accept' } ]
+60 verbose get saving async to /home/ivyho2/cache-nocut/registry.npmjs.org/async/.cache.json
+61 silly resolveWithNewModule async@1.5.0 checking installable status
+62 silly cache add args [ 'async@^1.5.0', null ]
+63 verbose cache add spec async@^1.5.0
+64 silly cache add parsed spec { raw: 'async@^1.5.0',
+64 silly cache add   scope: null,
+64 silly cache add   name: 'async',
+64 silly cache add   rawSpec: '^1.5.0',
+64 silly cache add   spec: '>=1.5.0 <2.0.0',
+64 silly cache add   type: 'range' }
+65 silly addNamed async@>=1.5.0 <2.0.0
+66 verbose addNamed ">=1.5.0 <2.0.0" is a valid semver range for async
+67 silly addNameRange { name: 'async', range: '>=1.5.0 <2.0.0', hasData: false }
+68 silly mapToRegistry name async
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/async
+72 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+73 verbose get https://registry.npmjs.org/async not expired, no request
+74 silly addNameRange number 2 { name: 'async', range: '>=1.5.0 <2.0.0', hasData: true }
+75 silly addNameRange versions [ 'async',
+75 silly addNameRange   [ '0.1.0',
+75 silly addNameRange     '0.1.1',
+75 silly addNameRange     '0.1.2',
+75 silly addNameRange     '0.1.3',
+75 silly addNameRange     '0.1.4',
+75 silly addNameRange     '0.1.5',
+75 silly addNameRange     '0.1.6',
+75 silly addNameRange     '0.1.7',
+75 silly addNameRange     '0.1.8',
+75 silly addNameRange     '0.1.9',
+75 silly addNameRange     '0.1.10',
+75 silly addNameRange     '0.1.11',
+75 silly addNameRange     '0.1.12',
+75 silly addNameRange     '0.1.13',
+75 silly addNameRange     '0.1.14',
+75 silly addNameRange     '0.1.15',
+75 silly addNameRange     '0.1.16',
+75 silly addNameRange     '0.1.17',
+75 silly addNameRange     '0.1.18',
+75 silly addNameRange     '0.1.19',
+75 silly addNameRange     '0.1.20',
+75 silly addNameRange     '0.1.21',
+75 silly addNameRange     '0.1.22',
+75 silly addNameRange     '0.2.0',
+75 silly addNameRange     '0.2.1',
+75 silly addNameRange     '0.2.2',
+75 silly addNameRange     '0.2.3',
+75 silly addNameRange     '0.2.4',
+75 silly addNameRange     '0.2.5',
+75 silly addNameRange     '0.2.6',
+75 silly addNameRange     '0.2.7',
+75 silly addNameRange     '0.2.8',
+75 silly addNameRange     '0.2.9',
+75 silly addNameRange     '0.2.10',
+75 silly addNameRange     '0.3.0',
+75 silly addNameRange     '0.4.0',
+75 silly addNameRange     '0.4.1',
+75 silly addNameRange     '0.5.0',
+75 silly addNameRange     '0.6.0',
+75 silly addNameRange     '0.6.1',
+75 silly addNameRange     '0.6.2',
+75 silly addNameRange     '0.7.0',
+75 silly addNameRange     '0.8.0',
+75 silly addNameRange     '0.9.0',
+75 silly addNameRange     '0.9.2',
+75 silly addNameRange     '1.0.0',
+75 silly addNameRange     '1.1.0',
+75 silly addNameRange     '1.2.0',
+75 silly addNameRange     '1.1.1',
+75 silly addNameRange     '1.2.1',
+75 silly addNameRange     '1.3.0',
+75 silly addNameRange     '1.4.0',
+75 silly addNameRange     '1.4.1',
+75 silly addNameRange     '1.4.2',
+75 silly addNameRange     '1.5.0' ] ]
+76 silly addNamed async@1.5.0
+77 verbose addNamed "1.5.0" is a plain semver version for async
+78 silly cache afterAdd async@1.5.0
+79 verbose afterAdd /home/ivyho2/cache-nocut/async/1.5.0/package/package.json not in flight; writing
+80 verbose afterAdd /home/ivyho2/cache-nocut/async/1.5.0/package/package.json written
+81 http 404 https://registry.npmjs.org/filterdragon
+82 verbose headers { 'content-type': 'application/json',
+82 verbose headers   'cache-control': 'max-age=0',
+82 verbose headers   'content-length': '2',
+82 verbose headers   'accept-ranges': 'bytes',
+82 verbose headers   date: 'Tue, 01 Dec 2015 03:58:31 GMT',
+82 verbose headers   via: '1.1 varnish',
+82 verbose headers   age: '0',
+82 verbose headers   connection: 'keep-alive',
+82 verbose headers   'x-served-by': 'cache-lcy1120-LCY',
+82 verbose headers   'x-cache': 'MISS',
+82 verbose headers   'x-cache-hits': '0',
+82 verbose headers   'x-timer': 'S1448942311.481879,VS0,VE158' }
+83 silly get cb [ 404,
+83 silly get   { 'content-type': 'application/json',
+83 silly get     'cache-control': 'max-age=0',
+83 silly get     'content-length': '2',
+83 silly get     'accept-ranges': 'bytes',
+83 silly get     date: 'Tue, 01 Dec 2015 03:58:31 GMT',
+83 silly get     via: '1.1 varnish',
+83 silly get     age: '0',
+83 silly get     connection: 'keep-alive',
+83 silly get     'x-served-by': 'cache-lcy1120-LCY',
+83 silly get     'x-cache': 'MISS',
+83 silly get     'x-cache-hits': '0',
+83 silly get     'x-timer': 'S1448942311.481879,VS0,VE158' } ]
+84 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/filterdragon
+84 silly fetchPackageMetaData     at makeError (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+84 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+84 silly fetchPackageMetaData     at Request._callback (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+84 silly fetchPackageMetaData     at Request.self.callback (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:198:22)
+84 silly fetchPackageMetaData     at Request.emit (events.js:110:17)
+84 silly fetchPackageMetaData     at Request.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+84 silly fetchPackageMetaData     at Request.emit (events.js:129:20)
+84 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+84 silly fetchPackageMetaData     at IncomingMessage.emit (events.js:129:20)
+84 silly fetchPackageMetaData     at _stream_readable.js:908:16
+84 silly fetchPackageMetaData  error for filterdragon@1.0.0 { [Error: Registry returned 404 for GET on https://registry.npmjs.org/filterdragon] pkgid: 'filterdragon', statusCode: 404, code: 'E404' }
+85 http 404 https://registry.npmjs.org/dependragon
+86 verbose headers { 'content-type': 'application/json',
+86 verbose headers   'cache-control': 'max-age=0',
+86 verbose headers   'content-length': '2',
+86 verbose headers   'accept-ranges': 'bytes',
+86 verbose headers   date: 'Tue, 01 Dec 2015 03:58:32 GMT',
+86 verbose headers   via: '1.1 varnish',
+86 verbose headers   age: '0',
+86 verbose headers   connection: 'keep-alive',
+86 verbose headers   'x-served-by': 'cache-lcy1135-LCY',
+86 verbose headers   'x-cache': 'MISS',
+86 verbose headers   'x-cache-hits': '0',
+86 verbose headers   'x-timer': 'S1448942311.479625,VS0,VE625' }
+87 silly get cb [ 404,
+87 silly get   { 'content-type': 'application/json',
+87 silly get     'cache-control': 'max-age=0',
+87 silly get     'content-length': '2',
+87 silly get     'accept-ranges': 'bytes',
+87 silly get     date: 'Tue, 01 Dec 2015 03:58:32 GMT',
+87 silly get     via: '1.1 varnish',
+87 silly get     age: '0',
+87 silly get     connection: 'keep-alive',
+87 silly get     'x-served-by': 'cache-lcy1135-LCY',
+87 silly get     'x-cache': 'MISS',
+87 silly get     'x-cache-hits': '0',
+87 silly get     'x-timer': 'S1448942311.479625,VS0,VE625' } ]
+88 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/dependragon
+88 silly fetchPackageMetaData     at makeError (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+88 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+88 silly fetchPackageMetaData     at Request._callback (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+88 silly fetchPackageMetaData     at Request.self.callback (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:198:22)
+88 silly fetchPackageMetaData     at Request.emit (events.js:110:17)
+88 silly fetchPackageMetaData     at Request.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+88 silly fetchPackageMetaData     at Request.emit (events.js:129:20)
+88 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+88 silly fetchPackageMetaData     at IncomingMessage.emit (events.js:129:20)
+88 silly fetchPackageMetaData     at _stream_readable.js:908:16
+88 silly fetchPackageMetaData  error for dependragon@1.0.0 { [Error: Registry returned 404 for GET on https://registry.npmjs.org/dependragon] pkgid: 'dependragon', statusCode: 404, code: 'E404' }
+89 http 404 https://registry.npmjs.org/fomatdragon
+90 verbose headers { 'content-type': 'application/json',
+90 verbose headers   'cache-control': 'max-age=0',
+90 verbose headers   'content-length': '2',
+90 verbose headers   'accept-ranges': 'bytes',
+90 verbose headers   date: 'Tue, 01 Dec 2015 03:58:32 GMT',
+90 verbose headers   via: '1.1 varnish',
+90 verbose headers   age: '0',
+90 verbose headers   connection: 'keep-alive',
+90 verbose headers   'x-served-by': 'cache-lcy1128-LCY',
+90 verbose headers   'x-cache': 'MISS',
+90 verbose headers   'x-cache-hits': '0',
+90 verbose headers   'x-timer': 'S1448942311.481410,VS0,VE661' }
+91 silly get cb [ 404,
+91 silly get   { 'content-type': 'application/json',
+91 silly get     'cache-control': 'max-age=0',
+91 silly get     'content-length': '2',
+91 silly get     'accept-ranges': 'bytes',
+91 silly get     date: 'Tue, 01 Dec 2015 03:58:32 GMT',
+91 silly get     via: '1.1 varnish',
+91 silly get     age: '0',
+91 silly get     connection: 'keep-alive',
+91 silly get     'x-served-by': 'cache-lcy1128-LCY',
+91 silly get     'x-cache': 'MISS',
+91 silly get     'x-cache-hits': '0',
+91 silly get     'x-timer': 'S1448942311.481410,VS0,VE661' } ]
+92 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/fomatdragon
+92 silly fetchPackageMetaData     at makeError (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+92 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+92 silly fetchPackageMetaData     at Request._callback (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+92 silly fetchPackageMetaData     at Request.self.callback (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:198:22)
+92 silly fetchPackageMetaData     at Request.emit (events.js:110:17)
+92 silly fetchPackageMetaData     at Request.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+92 silly fetchPackageMetaData     at Request.emit (events.js:129:20)
+92 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+92 silly fetchPackageMetaData     at IncomingMessage.emit (events.js:129:20)
+92 silly fetchPackageMetaData     at _stream_readable.js:908:16
+92 silly fetchPackageMetaData  error for fomatdragon@1.0.0 { [Error: Registry returned 404 for GET on https://registry.npmjs.org/fomatdragon] pkgid: 'fomatdragon', statusCode: 404, code: 'E404' }
+93 silly rollbackFailedOptional Starting
+94 silly rollbackFailedOptional Finishing
+95 silly runTopLevelLifecycles Starting
+96 silly runTopLevelLifecycles Finishing
+97 silly install printInstalled
+98 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/filterdragon
+98 verbose stack     at makeError (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+98 verbose stack     at CachingRegistryClient.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+98 verbose stack     at Request._callback (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+98 verbose stack     at Request.self.callback (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:198:22)
+98 verbose stack     at Request.emit (events.js:110:17)
+98 verbose stack     at Request.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+98 verbose stack     at Request.emit (events.js:129:20)
+98 verbose stack     at IncomingMessage.<anonymous> (/svt/shared/IBMSVT64_12/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+98 verbose stack     at IncomingMessage.emit (events.js:129:20)
+98 verbose stack     at _stream_readable.js:908:16
+99 verbose statusCode 404
+100 verbose pkgid filterdragon
+101 verbose cwd /home/ivyho2/ossc-maker
+102 error Linux 3.10.0-229.1.2.el7.x86_64
+103 error argv "node" "/svt/shared/IBMSVT64_12/bin/npm" "install"
+104 error node v0.12.7
+105 error npm  v3.4.0
+106 error code E404
+107 error 404 Registry returned 404 for GET on https://registry.npmjs.org/filterdragon
+107 error 404
+107 error 404 'filterdragon' is not in the npm registry.
+107 error 404 You should bug the author to publish it (or use the name yourself!)
+107 error 404 It was specified as a dependency of 'ossc-maker'
+107 error 404
+107 error 404 Note that you can also install from a
+107 error 404 tarball, folder, http url, or git url.
+108 verbose exit [ 1, true ]
